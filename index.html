@@ -206,38 +206,60 @@
     </tbody>
 </table>
 
+<table>
+    <tr>
+        <td><a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a></td>
+        <td><p>I am a <a href="https://www.w3schools.com/" target="_self">a Text</a></p></td>
+        <td><p>I am a <a href="https://www.w3schools.com/" target="_parent">a Text</a></p></td>
+    </tr>
+    <tr>
+        <td><p>I am a <a href="https://www.w3schools.com/" target="_top">a Text</a></p></td>
+        <td><p>I am a <a href="https://www.w3schools.com/" target="w3schools">a Text</a></p></td>
+        <td><button onclick="document.location='default.asp'">HTML Tutorial</button></td>
+    </tr>
+    <tr>
+        <td><a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a></td>
+        <td><img src="https://www.w3schools.com/html/img_girl.jpg" alt="HTML5 Icon" style="width:128px;height:128px;"></td>
+        <td><img src="https://www.w3schools.com/html/img_girl.jpg" alt="HTML5 Icon" width="128" height="128"></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="default.asp">
+                <img src="https://www.w3schools.com/html/smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+            </a>
+        </td>
+        <td>
+            <p><img src="https://www.w3schools.com/html/smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
+                The image will float to the right of the text.</p>
+        </td>
+        <td>
+            <p><img src="https://www.w3schools.com/html/smiley.gif" alt="Smiley face" style="float:left;width:42px;height:42px;">
+                The image will float to the left of the text.</p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="https://www.w3schools.com/html/workplace.jpg" alt="Workplace" usemap="#workmap">
+            <map name="workmap">
+                <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://www.w3schools.com/w3images/mac.jpg">
+                <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://www.w3schools.com/w3images/cellphone.jpg">
+                <area shape="circle" coords="337,300,44" alt="Coffee" href="https://www.w3schools.com/w3images/coffeehouse2.jpg"
+                      onclick="myFunction()">
+            </map>
+        </td>
+        <td>
+            <img src="https://www.w3schools.com/html/frenchfood.jpg" alt="French Food" usemap="#foodmap" width="450" height="675">
+            <map name="foodmap">
+                <area shape="poly"
+                      coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147"
+                      alt="Croissant" href="https://www.w3schools.com/html/frenchfood4.jpg">
+            </map>
+        </td>
+    </tr>
+</table>
 
-<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
-<p>I am a <a href="https://www.w3schools.com/" target="_self">a Text</a></p>
-<p>I am a <a href="https://www.w3schools.com/" target="_parent">a Text</a></p>
-<p>I am a <a href="https://www.w3schools.com/" target="_top">a Text</a></p>
-<p>I am a <a href="https://www.w3schools.com/" target="w3schools">a Text</a></p>
-<button onclick="document.location='default.asp'">HTML Tutorial</button>
-<a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
-<img src="https://www.w3schools.com/html/img_girl.jpg" alt="HTML5 Icon" style="width:128px;height:128px;">
-<img src="https://www.w3schools.com/html/img_girl.jpg" alt="HTML5 Icon" width="128" height="128">
-<a href="default.asp">
-    <img src="https://www.w3schools.com/html/smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
-</a>
-<p><img src="https://www.w3schools.com/html/smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
-    The image will float to the right of the text.</p>
 
-<p><img src="https://www.w3schools.com/html/smiley.gif" alt="Smiley face" style="float:left;width:42px;height:42px;">
-    The image will float to the left of the text.</p>
-<img src="https://www.w3schools.com/html/workplace.jpg" alt="Workplace" usemap="#workmap">
 
-<map name="workmap">
-    <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://www.w3schools.com/w3images/mac.jpg">
-    <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://www.w3schools.com/w3images/cellphone.jpg">
-    <area shape="circle" coords="337,300,44" alt="Coffee" href="https://www.w3schools.com/w3images/coffeehouse2.jpg"
-          onclick="myFunction()">
-</map>
-<img src="https://www.w3schools.com/html/frenchfood.jpg" alt="French Food" usemap="#foodmap" width="450" height="675">
-<map name="foodmap">
-    <area shape="poly"
-          coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147"
-          alt="Croissant" href="https://www.w3schools.com/html/frenchfood4.jpg">
-</map>
 <table style="width:100%">
     <caption>Monthly savings</caption>
     <tr>
@@ -447,6 +469,8 @@
         <td>28</td>
     </tr>
 </table>
+
+
 <h2>Hide Columns</h2>
 <p>You can hide specific columns with the visibility property:</p>
 
@@ -502,85 +526,108 @@
     </tr>
 </table>
 
-<p><b>Note:</b> The table columns does not collapse properly in Safari browsers.</p>
+<table>
+    <tr>
+        <td>
+            <p><b>Note:</b> The table columns does not collapse properly in Safari browsers.</p>
+        </td>
+        <td>
+            <ul>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ul>
+        </td>
+        <td>
+            <ol>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ol>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <dl>
+                <dt>Coffee</dt>
+                <dd>- black hot drink</dd>
+                <dt>Milk</dt>
+                <dd>- white cold drink</dd>
+            </dl>
+        </td>
+        <td>
+            <ul>
+                <li>Coffee</li>
+                <li>Tea
+                    <ul>
+                        <li>Black tea</li>
+                        <li>Green tea</li>
+                    </ul>
+                </li>
+                <li>Milk</li>
+            </ul>
+        </td>
+        <td>
+            <ol type="I">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ol>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <ol start="50">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ol>
+        </td>
+        <td>
+            <ol>
+                <li>Coffee</li>
+                <li>Tea
+                    <ol>
+                        <li>Black tea</li>
+                        <li>Green tea</li>
+                    </ol>
+                </li>
+                <li>Milk</li>
+            </ol>
+        </td>
+        <td>
+            <div>
+                <h3>Block-level Elements</h3>
+                <p>A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.</p>
+                <p>A block-level element always takes up the full width available (stretches out to the left and right as far as it can).</p>
+                <p>Two commonly used block elements are: `< p> and < div>`.</p>
+                <p>The < p> element defines a paragraph in an HTML document.</p>
+                <p>The < div> element defines a division or a section in an HTML document.</p>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p>Hello World</p>
+            <div>Hello World</div>
+        </td>
+        <td>
+            <div>
+                <h3>Inline Elements</h3>
+                <p> An inline element does not start on a new line.</p>
+                <p> An inline element only takes up as much width as necessary.</p>
+                <p>This is a < span> element inside a paragraph.</p>
+            </div>
+        </td>
+        <td>
+            <span>Hello World</span>
+            <p>My mother has <span style="color:blue;font-weight:bold;">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold;">dark green</span> eyes.</p>
+        </td>
+    </tr>
+</table>
 
-<ul>
-    <li>Coffee</li>
-    <li>Tea</li>
-    <li>Milk</li>
-</ul>
 
-<ol>
-    <li>Coffee</li>
-    <li>Tea</li>
-    <li>Milk</li>
-</ol>
-
-<dl>
-    <dt>Coffee</dt>
-    <dd>- black hot drink</dd>
-    <dt>Milk</dt>
-    <dd>- white cold drink</dd>
-</dl>
-
-<ul>
-    <li>Coffee</li>
-    <li>Tea
-        <ul>
-            <li>Black tea</li>
-            <li>Green tea</li>
-        </ul>
-    </li>
-    <li>Milk</li>
-</ul>
-
-<ol type="I">
-    <li>Coffee</li>
-    <li>Tea</li>
-    <li>Milk</li>
-</ol>
-
-<ol start="50">
-    <li>Coffee</li>
-    <li>Tea</li>
-    <li>Milk</li>
-</ol>
-
-<ol>
-    <li>Coffee</li>
-    <li>Tea
-        <ol>
-            <li>Black tea</li>
-            <li>Green tea</li>
-        </ol>
-    </li>
-    <li>Milk</li>
-</ol>
-
-<h3>Block-level Elements</h3>
-<p>A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.</p>
-
-<p>A block-level element always takes up the full width available (stretches out to the left and right as far as it can).</p>
-
-<p>Two commonly used block elements are: `< p> and < div>`.</p>
-
-    <p>The < p> element defines a paragraph in an HTML document.</p>
-
-        <p>The < div> element defines a division or a section in an HTML document.</p>
-
-<p>Hello World</p>
-<div>Hello World</div>
-
-<h3>Inline Elements</h3>
-<p> An inline element does not start on a new line.</p>
-
-<p> An inline element only takes up as much width as necessary.</p>
-
-    <p>This is a < span> element inside a paragraph.</p>
-
-<span>Hello World</span>
-
-<p>My mother has <span style="color:blue;font-weight:bold;">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold;">dark green</span> eyes.</p>
+            <p>My mother has <span style="color:blue;font-weight:bold;">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold;">dark green</span> eyes.</p>
 <h2 id="C4">Chapter 4</h2>
 <!-- An element with a unique id -->
 <h1 id="myHeader">My Cities</h1>
