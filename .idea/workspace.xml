@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21c13653-f2b8-4731-a771-dba439bbfaac" name="Changes" comment="Initial CheatSheet For HTML">
-      <change beforePath="$PROJECT_DIR$/../HTML CheatSheet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML CheatSheet/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HTML CheatSheet/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML CheatSheet/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +23,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../HTML CheatSheet" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -40,8 +40,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "tabular-format",
-    "last_opened_file_path": "/Users/Romanch/WebstormProjects/HTML Boilerplate/images",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/Romanch/WebstormProjects/HTML CheatSheet",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",

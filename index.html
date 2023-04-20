@@ -18,7 +18,7 @@
     <thead>
     <tr>
         <th>Tags</th>
-        <th>Syntex</th>
+        <th>Syntax</th>
         <th>Output</th>
     </tr>
     </thead>
@@ -203,41 +203,90 @@
         <td>< blockquote>Hello World!< /blockquote></td>
         <td><blockquote>Hello World!</blockquote></td>
     </tr>
-    </tbody>
-</table>
-
-<table>
     <tr>
+        <td>a href="" target="_blank"</td>
+        <td>< a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!< /a></td>
         <td><a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a></td>
+    </tr>
+    <tr>
+        <td>a href="" target="_self"</td>
+        <td>< a href="https://www.w3schools.com/" target="_self">Visit W3Schools!< /a></td>
         <td><p>I am a <a href="https://www.w3schools.com/" target="_self">a Text</a></p></td>
+    </tr>
+    <tr>
+        <td>a href="" target="_parent"</td>
+        <td>< a href="https://www.w3schools.com/" target="_parent">Visit W3Schools!< /a></td>
         <td><p>I am a <a href="https://www.w3schools.com/" target="_parent">a Text</a></p></td>
     </tr>
     <tr>
+        <td>a href="" target="_top"</td>
+        <td>< a href="https://www.w3schools.com/" target="_top">Visit W3Schools!< /a></td>
         <td><p>I am a <a href="https://www.w3schools.com/" target="_top">a Text</a></p></td>
+    </tr>
+    <tr>
+        <td>a href="" target="w3schools"</td>
+        <td>< a href="https://www.w3schools.com/" target="w3schools">Visit W3Schools!< /a></td>
         <td><p>I am a <a href="https://www.w3schools.com/" target="w3schools">a Text</a></p></td>
+    </tr>
+    <tr>
+        <td>p a href="" target="w3schools"</td>
+        <td>< p>< a href="https://www.w3schools.com/" target="w3schools">Visit W3Schools!< /a>< /p></td>
+        <td><p><a href="https://www.w3schools.com/" target="w3schools">Visit W3Schools!</a></p></td>
+    </tr>
+    <tr>
+        <td> button onclick="document.location='default.asp'"</td>
+        <td>< button onclick="document.location='default.asp'">HTML Tutorial< /button></td>
         <td><button onclick="document.location='default.asp'">HTML Tutorial</button></td>
     </tr>
     <tr>
-        <td><a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a></td>
-        <td><img src="https://www.w3schools.com/html/img_girl.jpg" alt="HTML5 Icon" style="width:128px;height:128px;"></td>
+        <td>a href="" title="Go to html page"</td>
+        <td>< a href="https://www.w3schools.com/html/" title="Go to html page">Visit our HTML Tutorial< /a></td>
+        <td><a href="https://www.w3schools.com/html/" title="Go to html page">Visit our HTML Tutorial</a></td>
+    </tr>
+    <tr>
+        <td>img src="" alt=""</td>
+        <td>< img src="" alt="html5 icon" style="width:128px;hight:128px;"</td>
+        <td><img src="https://www.w3schools.com/html/img_girl.jpg" alt="html5 icon" style="width:128px;hight:128px;"></td>
+    </tr>
+    <tr>
+        <td>img src="" alt="" width="" height=""</td>
+        <td>< img src="" alt="html5 icon" width="128" height="128"</td>
         <td><img src="https://www.w3schools.com/html/img_girl.jpg" alt="HTML5 Icon" width="128" height="128"></td>
     </tr>
     <tr>
+        <td> a href="" img src="" alt=""</td>
+        <td>< a href="default.asp">< img src="" alt="" style="width:42px;height:42px;>< /a></td>
         <td>
             <a href="default.asp">
                 <img src="https://www.w3schools.com/html/smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
             </a>
         </td>
+    </tr>
+    <tr>
+        <td> p img src="" atl="" style="float:right;widht:42px;height:42px;"</td>
+        <td>< p>< img src="" atl="Smiley face" style="float:right;widht:42px;height:42px;">< /p></td>
         <td>
             <p><img src="https://www.w3schools.com/html/smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
                 The image will float to the right of the text.</p>
         </td>
+    </tr>
+    <tr>
+        <td> p img src="" atl="" style="float:left;widht:42px;height:42px;"</td>
+        <td>< p>< img src="" atl="Smiley face" style="float:left;widht:42px;height:42px;">< /p></td>
         <td>
             <p><img src="https://www.w3schools.com/html/smiley.gif" alt="Smiley face" style="float:left;width:42px;height:42px;">
                 The image will float to the left of the text.</p>
         </td>
     </tr>
     <tr>
+        <td>img src="" alt="" usemap="#workmap" >> map name="workmap" >>  area shape="ract" coords="" map </td>
+        <td>< img src="" alt="Workplace" usemap="#workmap"><br>
+            < map name="workmap"><br>
+                < area shape="rect" coords="34,44,270,350" alt="Computer" href=""><br>
+                < area shape="rect" coords="290,172,333,250" alt="Phone" href=""><br>
+                < area shape="circle" coords="337,300,44" alt="Coffee" href=""
+                      onclick="myFunction()">
+            < /map>
         <td>
             <img src="https://www.w3schools.com/html/workplace.jpg" alt="Workplace" usemap="#workmap">
             <map name="workmap">
@@ -247,15 +296,24 @@
                       onclick="myFunction()">
             </map>
         </td>
-        <td>
-            <img src="https://www.w3schools.com/html/frenchfood.jpg" alt="French Food" usemap="#foodmap" width="450" height="675">
-            <map name="foodmap">
-                <area shape="poly"
-                      coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147"
-                      alt="Croissant" href="https://www.w3schools.com/html/frenchfood4.jpg">
-            </map>
-        </td>
     </tr>
+<!--    <tr>-->
+<!--        <td>img src="" alt="" usemap="#foodmap" >> map name="foodmap" >>  area shape="poly" coords="" map </td>-->
+<!--        <td>< img src="" alt="French Food" usemap="#foodmap" width="450" height="675"><br>-->
+<!--            < map name="foodmap"><br>-->
+<!--            < area shape="poly" coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147"-->
+<!--            alt="Croissant" href=""><br>-->
+<!--            < /map>-->
+<!--        <td>-->
+<!--            <img src="https://www.w3schools.com/html/frenchfood.jpg" alt="French Food" usemap="#foodmap" width="450" height="675">-->
+<!--            <map name="foodmap">-->
+<!--                <area shape="poly"-->
+<!--                      coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147"-->
+<!--                      alt="Croissant" href="https://www.w3schools.com/html/frenchfood4.jpg">-->
+<!--            </map>-->
+<!--        </td>-->
+<!--    </tr>-->
+    </tbody>
 </table>
 
 
